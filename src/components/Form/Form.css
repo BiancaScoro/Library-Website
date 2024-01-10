@@ -1,0 +1,35 @@
+.form {
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    background-color: var(--grey-color);
+    height: 250px;
+    border-radius: 5px;
+}
+
+.form-container .grid{
+    padding-top: 50px;
+}
+
+.label{
+  padding: 16px;
+}
+
+.label input{
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 32px;
+}
+.submit-button{
+    padding: 16px;
+}
+
+.button{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+}
+
+.button:hover{
+    background-color: var(--yellow-color);
+}

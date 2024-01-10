@@ -1,0 +1,67 @@
+.header-content{
+    min-height: 65vh;
+    background: url("../../components/assets/library.png") center/cover no-repeat;
+    flex-direction: row;
+    gap: 260px;
+}
+
+.header-text{
+    padding-left: 120px;
+    flex-direction: column;
+}
+
+.header-title{
+    font-size: 4.1rem;
+    float: left;
+}
+
+.header-subtitle{
+    margin-top: 7rem;
+    margin-bottom: 2.6rem;
+    width: 500px;
+    font-size: 16px;
+    margin-left: 6rem;
+}
+
+.header-image{
+    width: 200px;
+    float: right;
+}
+
+.btn-primary{
+    background-color: var( --yellow-color);
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    float: left;
+    margin-left: 220px;
+}
+
+@media screen and (max-width: 900px) {
+    .header-content{
+        flex-direction: column;
+        justify-content: center;
+        min-height: 80vh;
+    }
+
+    .header-text{
+        float: center;
+        padding-top: 50px;
+    }
+
+    .header-subtitle{
+        float: center;
+    }
+    .btn-primary{
+        float: center;
+        margin-bottom: 0;
+    }
+
+    .header-image{
+       display: none;
+    }
+
+    .header-text{
+        padding-left: 0px;
+    }
+}
